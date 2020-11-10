@@ -1,3 +1,33 @@
 <resources>
-    <string name="app_name">PMD-Project-1</string>
+    <string name="app_name">Animal Facts!</string>
+    <string name="funfact_Crocodile">
+        <b>Fun Fact - </b> Like most reptiles, crocodiles are cold-blooded animals and prefer to take up residence in tropical areas close to wetlands. They cannot generate heat on their own, therefore they go into a period of long sleep (<i>or aestivation, a similar state to hibernation</i>) until the weather heats up again.
+    </string>
+    <string name="funfact_Elephant">
+        <b>Fun Fact - </b>You can tell a lot about an elephant by looking at their tusks! Elephant tusks <b>never stop growing</b>, so enormous tusks can be a sign of an old elephant. Both male and female African elephants grow tusks, but only <b><i>male</i> Asian elephants</b> grow them. A tusk-less adult elephant is likely to be a female Asian elephant.
+    </string>
+    <string name="funfact_Fox">
+        <b>Fun Fact - </b>Foxes are more like cats than dogs. Similar to cats, foxes are nocturnal. Due to their vertically slanted pupils, they have increased visibility in dim light. Foxes also climb trees, use their whiskers to navigate and even stalk their prey like cats. <b>Grey foxes</b> can retract their claws, too — just like cats.
+    </string>
+    <string name="funfact_Gorilla">
+        <b>Fun Fact - </b>Gorillas live in fairly stable social groups comprising of one adult male usually referred to as the silverback (<i>because of the silver hair on his back which signals full adulthood</i>) and multiple females with juveniles and infants. When young males reach the age of 8-11 they will usually emigrate away and either join another group or form new groups.
+    </string>
+    <string name="funfact_Koala">
+        <b>Fun Fact - </b>When an infant koala – called a <b><i>joey</i></b> – is born, it immediately climbs up to its mother’s pouch. Blind and earless, a joey uses its <b>strong sense of touch and smell</b>, as well as natural instinct, to find its way.
+    </string>
+    <string name="funfact_Owl">
+        <b>Fun Fact - </b>Instead of spherical eyeballs, owls have "<i>eye tubes</i>" that go far back into their skulls—which means their eyes are fixed in place, so they have to turn their heads to see. The size of their eyes helps them see in the dark, and they're far-sighted, which allows them to spot prey from yards away.
+    </string>
+    <string name="funfact_Panda">
+        <b>Fun Fact - </b>Giant pandas grow to between <b>1.2m</b> and <b>1.5m</b>, and weigh between <b>75kg</b> and <b>135kg</b>. Scientists aren\'t sure how long pandas live in the wild, but in captivity they live to be around 30 years old.
+    </string>
+    <string name="funfact_Raccoon">
+        <b>Fun Fact - </b>A group of raccoons is called a <b><i>nursery</i></b> or a <b><i>gaze</i></b>. Some dens contain up to thirty raccoons, although it is more common for them to contain around four.
+    </string>
+    <string name="funfact_Sloth">
+        <b>Fun Fact - </b>The slow-movement and unique thick fur of the sloth make it a great habitat for other creatures such as moths, beetles, cockroaches, fungi, and algae. In fact, this green colored algae provides a camouflage so sloths can avoid predators.
+    </string>
+    <string name="funfact_Tiger">
+        <b>Fun Fact - </b>These subspecies are the <b><i>Bengal</i></b> tiger, <b><i>South China</i></b> tiger, <b><i>Indochinese</i></b> tiger, <b><i>Sumatran</i></b> tiger and <b><i>Siberian</i></b> tiger. Sadly, three subspecies of tiger have become extinct – the <b><i>Caspian, Bali</i></b> and <b><i>Javan</i></b>.
+    </string>
 </resources>
