@@ -5,10 +5,13 @@ public class Animal {
 	private int imageId;
 	private String wikipediaLink;
 
-	public Animal(String name, int imageId, String wikipediaLink){
+	private int soundId;
+
+	public Animal(String name, int imageId, String wikipediaLink, int soundId){
 		this.name = name;
 		this.imageId = imageId;
 		this.wikipediaLink = wikipediaLink;
+		this.soundId = soundId;
 	}
 
 	public String getName() {
@@ -33,5 +36,13 @@ public class Animal {
 
 	public void setWikipediaLink(String wikipediaLink) {
 		this.wikipediaLink = wikipediaLink;
+	}
+
+	public int getSoundId() {
+		return soundId;
+	}
+
+	public void setSoundId(int soundId) {
+		this.soundId = soundId;
 	}
 }
