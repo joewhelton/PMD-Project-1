@@ -3,22 +3,25 @@ package com.example.pmd_project_1;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
 
-import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
+import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 public class DetailActivity extends AppCompatActivity {
 	private String wikipediaLink;
+	private MediaPlayer animalSoundPlayer;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_detail);
+
 		ConstraintLayout layout = findViewById(R.id.clDetail);
 		TextView name = findViewById(R.id.detailName);
 		ImageView image = findViewById(R.id.detailImage);
@@ -37,6 +40,8 @@ public class DetailActivity extends AppCompatActivity {
 			if (factId != 0) {
 				funFact.setText(getText(factId));
 			}
+			int soundId = extras.getInt("animalSoundID");
+			animalSoundPlayer = MediaPlayer.create(this, soundId);
 		}
 
 		Button wikiButton = findViewById(R.id.wikipediaButton);
@@ -46,6 +51,14 @@ public class DetailActivity extends AppCompatActivity {
 				Uri url = Uri.parse(wikipediaLink);
 				Intent webIntent = new Intent(Intent.ACTION_VIEW, url);
 				startActivity(webIntent);
+			}
+		});
+
+		ImageButton soundButton = findViewById(R.id.soundButton);
+		soundButton.setOnClickListener(new View.OnClickListener(){
+			@Override
+			public void onClick(View v){
+				animalSoundPlayer.start();
 			}
 		});
 	}
